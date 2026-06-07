@@ -465,8 +465,29 @@ h1, h2, h3, .section-tagline {
 }
 
 /* Clean, modern Instagram icon styling */
+/* Align the circle icon and text side-by-side */
 .social-links {
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Space between the icon and the text */
+}
+
+/* Remove the circle styling specifically for the text link */
+.social-links a.insta-text-link {
+    width: auto;
+    height: auto;
+    border: none;
+    font-size: 1.05rem; /* Matches your phone and email text size */
+    color: #E2D9D5; /* Matches your paragraph text color */
+}
+
+/* Give the text link a simple underline on hover */
+.social-links a.insta-text-link:hover {
+    background-color: transparent;
+    transform: none;
+    box-shadow: none;
+    color: var(--gold);
+    text-decoration: underline;
 }
 
 .social-links a {
