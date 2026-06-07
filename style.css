@@ -164,7 +164,10 @@ h1, h2, h3, .section-tagline {
 .hero-section {
     height: 100vh;
     min-height: 600px;
-    background: url('hero_banner.jpg') no-repeat center center/cover;
+    background-color: var(--primary-maroon-dark); /* Fallback color while image loads */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     position: relative;
     display: flex;
     align-items: center;

@@ -40,6 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (instagramFloat) instagramFloat.href = data.contact.instagram_link;
         }
 
+        // Hero Background Engine
+        const heroSection = document.getElementById('home');
+        if (heroSection && data.images.hero.gdrive_link) {
+            heroSection.style.backgroundImage = `url('${data.images.hero.gdrive_link}')`;
+        }
+
         // Image Engine
         const mainLogo = document.getElementById('dynamic-logo');
         if (mainLogo && data.images.logo.gdrive_link) {
