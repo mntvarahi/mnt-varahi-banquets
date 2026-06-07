@@ -552,6 +552,20 @@ h1, h2, h3, .section-tagline {
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
 }
 
+/* Instagram Floating Button */
+.instagram-float-btn {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: var(--white);
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.instagram-float-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(220, 39, 67, 0.4);
+    color: var(--white);
+}
+
 #scrollTopBtn {
     background-color: var(--primary-maroon);
     color: var(--gold);

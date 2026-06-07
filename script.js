@@ -34,8 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Instagram Integration
         const instagramLink = document.getElementById('dynamic-instagram');
-        if (instagramLink && data.contact.instagram_link) {
-            instagramLink.href = data.contact.instagram_link;
+        const instagramFloat = document.getElementById('dynamic-floating-instagram');
+        if (data.contact.instagram_link) {
+            if (instagramLink) instagramLink.href = data.contact.instagram_link;
+            if (instagramFloat) instagramFloat.href = data.contact.instagram_link;
         }
 
         // Image Engine
