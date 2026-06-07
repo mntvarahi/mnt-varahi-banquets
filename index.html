@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MNT Varahi Banquets | Premium Banquet Hall Hyderabad</title>
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Modern Premium Font Pairing -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
+    <!-- Glassmorphism Sticky Header -->
     <header class="main-header">
         <div class="header-container">
-            <a href="#home" class="logo-area">
+            <a href="#home" class="logo-area" aria-label="MNT Varahi Banquets Home">
                 <img id="dynamic-logo" src="MNT_Varahi_logo.png" alt="MNT Varahi Banquets Logo">
             </a>
-            <nav class="navbar">
+            <nav class="navbar" aria-label="Main Navigation">
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -25,70 +30,75 @@
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="menu-toggle" id="mobile-menu">
+                <button class="menu-toggle" id="mobile-menu" aria-label="Toggle Navigation Menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
-                </div>
+                </button>
             </nav>
         </div>
     </header>
 
+    <!-- Animated Hero Section -->
     <section id="home" class="hero-section">
         <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1 class="animate-text">Welcome to MNT Varahi Banquets</h1>
+        <div class="hero-content fade-up-anim">
+            <h1>Welcome to MNT Varahi Banquets</h1>
             <p class="hero-subtitle">Where Grand Celebrations Meet Timeless Elegance</p>
             <div class="hero-divider"></div>
             <a href="tel:+917993872121" class="cta-button"><i class="fa-solid fa-phone"></i> Call Now</a>
         </div>
     </section>
 
+    <!-- Modern Offset About Section -->
     <section id="about" class="about-section">
         <div class="container grid-2">
             <div class="about-text">
-                <span class="section-tagline">Our Venue</span>
+                <span class="section-tagline">The Venue</span>
                 <h2>A Majestic Setting for Unforgettable Memories</h2>
-                <p>Nestled in the heart of **Anand Nagar, Bandlaguda, Hyderabad**, MNT Varahi Banquets stands as a premier destination for traditional elegance and grand festivities. Our venue offers an exquisite environment designed specifically for luxury weddings, grand receptions, and polished corporate milestones.</p>
-                <p>We blend classic Indian aesthetics with modern premium comforts to ensure your special day is spectacular and stress-free for your entire family.</p>
+                <p>Nestled in the heart of <strong>Anand Nagar, Bandlaguda, Hyderabad</strong>, MNT Varahi Banquets stands as a premier destination for traditional elegance and grand festivities. Our venue offers an exquisite environment designed specifically for luxury weddings, grand receptions, and polished corporate milestones.</p>
+                <p>We seamlessly blend classic Indian aesthetics with state-of-the-art premium comforts, ensuring your special day is spectacular, seamless, and absolutely stress-free for your entire family.</p>
             </div>
             <div class="about-image-wrapper">
                 <img id="dynamic-about-img" src="MNT_Varahi_logo.png" alt="MNT Varahi Banquets Venue Interior" class="premium-img">
+                <div class="image-accent-border"></div>
             </div>
         </div>
     </section>
 
+    <!-- Premium Amenities Grid -->
     <section id="amenities" class="amenities-section">
         <div class="container">
             <div class="section-title-area">
                 <h2>Exquisite Amenities</h2>
-                <p>Crafted to deliver comfort and absolute luxury to your guests</p>
+                <p>Crafted to deliver unparalleled comfort and luxury to your guests</p>
             </div>
             <div class="amenities-grid">
                 <div class="amenity-card">
                     <div class="icon-box"><i class="fa-solid fa-snowflake"></i></div>
                     <h3>Central AC</h3>
-                    <p>Fully temperature-controlled spaces to keep your guests refreshed throughout the event.</p>
+                    <p>Fully temperature-controlled environments ensuring your guests remain refreshed throughout the celebration.</p>
                 </div>
                 <div class="amenity-card">
                     <div class="icon-box"><i class="fa-solid fa-utensils"></i></div>
-                    <h3>Spacious Dining Area</h3>
-                    <p>A beautifully dedicated dining arena built to smoothly manage custom catering scales.</p>
+                    <h3>Dining Arena</h3>
+                    <p>A beautifully dedicated, spacious culinary area built to smoothly manage custom catering at any scale.</p>
                 </div>
                 <div class="amenity-card">
                     <div class="icon-box"><i class="fa-solid fa-square-parking"></i></div>
                     <h3>Valet Parking</h3>
-                    <p>Worry-free arrival experiences managed safely by our professional parking team.</p>
+                    <p>Seamless arrival experiences managed safely and securely by our professional valet parking team.</p>
                 </div>
                 <div class="amenity-card">
-                    <div class="icon-box"><i class="fa-solid fa-hotel"></i></div>
-                    <h3>Bride & Groom Suites</h3>
-                    <p>Luxury, fully air-conditioned private sanctuary greenrooms for flawless bridal preparation.</p>
+                    <div class="icon-box"><i class="fa-solid fa-gem"></i></div>
+                    <h3>Luxury Suites</h3>
+                    <p>Private, fully air-conditioned greenrooms serving as flawless preparation sanctuaries for the Bride & Groom.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Responsive Gallery -->
     <section id="gallery" class="gallery-section">
         <div class="container">
             <div class="section-title-area">
@@ -96,68 +106,77 @@
                 <p>Glimpses of opulence and beautiful celebrations at Varahi</p>
             </div>
             <div class="gallery-grid" id="dynamic-gallery">
-                <div class="gallery-item"><img src="gallery_1.jpg" alt="Event Space Setup 1"></div>
-                <div class="gallery-item"><img src="gallery_2.jpg" alt="Event Space Setup 2"></div>
-                <div class="gallery-item"><img src="gallery_3.jpg" alt="Event Space Setup 3"></div>
-                <div class="gallery-item"><img src="gallery_4.jpg" alt="Event Space Setup 4"></div>
-                <div class="gallery-item"><img src="gallery_5.jpg" alt="Event Space Setup 5"></div>
-                <div class="gallery-item"><img src="gallery_6.jpg" alt="Event Space Setup 6"></div>
+                <!-- Fallback items -->
+                <div class="gallery-item"><img src="gallery_1.jpg" alt="Event Setup"></div>
+                <div class="gallery-item"><img src="gallery_2.jpg" alt="Event Setup"></div>
+                <div class="gallery-item"><img src="gallery_3.jpg" alt="Event Setup"></div>
+                <div class="gallery-item"><img src="gallery_4.jpg" alt="Event Setup"></div>
+                <div class="gallery-item"><img src="gallery_5.jpg" alt="Event Setup"></div>
+                <div class="gallery-item"><img src="gallery_6.jpg" alt="Event Setup"></div>
             </div>
         </div>
     </section>
 
+    <!-- Structured Footer -->
     <footer id="contact" class="footer-section">
         <div class="container grid-3">
             <div class="footer-info">
                 <h3>MNT Varahi Banquets</h3>
-                <p class="address-text"><i class="fa-solid fa-location-dot"></i> Anand Nagar, Bandlaguda, Hyderabad, Telangana.</p>
-                
-                <p class="phone-text">
+                <p class="contact-line">
+                    <i class="fa-solid fa-location-dot"></i> 
+                    <span>Anand Nagar, Bandlaguda, Hyderabad, Telangana.</span>
+                </p>
+                <p class="contact-line">
                     <i class="fa-solid fa-phone"></i> 
-                    <a href="tel:+917993872121">+91 7993872121</a>
+                    <a href="tel:+917993872121" class="hover-underline">+91 7993872121</a>
                 </p>
-
-                <p class="email-text">
+                <p class="contact-line">
                     <i class="fa-solid fa-envelope"></i> 
-                    <a href="mailto:mntvarahi@gmail.com">mntvarahi@gmail.com</a>
+                    <a href="mailto:mntvarahi@gmail.com" class="hover-underline">mntvarahi@gmail.com</a>
                 </p>
 
+                <!-- Premium Instagram Alignment -->
                 <div class="social-links">
-                    <a href="https://www.instagram.com/mnt_varahi_banquets" target="_blank" aria-label="Instagram">
+                    <a id="dynamic-instagram" href="#" class="social-icon" target="_blank" aria-label="Instagram Profile">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-
-                    <!-- NEW: Clickable Page Name Text -->
-                    <a id="dynamic-instagram-text" href="https://www.instagram.com/mnt_varahi_banquets" target="_blank" class="insta-text-link">
+                    <a id="dynamic-instagram-text" href="#" target="_blank" class="insta-text-link">
                         mntvarahi_banquets
                     </a>
                 </div>
             </div>
+
             <div class="footer-hours">
                 <h3>Reservations Open</h3>
-                <p>Available daily for venue walkthroughs, consultations, and bookings.</p>
-                <p><strong>Strictly Informational Site:</strong> Please reach us over Direct Call or WhatsApp for structural pricing, quotes, and slot availability details.</p>
+                <p>Available daily for venue walkthroughs, consultations, and event bookings.</p>
+                <div class="info-badge">
+                    <strong>Strictly Informational Site:</strong> Please reach us over Direct Call or WhatsApp for structural pricing, custom quotes, and slot availability details.
+                </div>
             </div>
+
             <div class="footer-map">
-                <iframe id="dynamic-map" src="" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe id="dynamic-map" src="" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" aria-label="Google Maps Location"></iframe>
             </div>
         </div>
+        
         <div class="footer-bottom">
             <p>&copy; 2026 MNT Varahi Banquets. All Rights Reserved.</p>
         </div>
     </footer>
 
+    <!-- Interactive Floating Controls -->
     <div class="floating-actions">
         <button id="scrollTopBtn" class="floating-btn scroll-top-hidden" aria-label="Scroll to top">
             <i class="fa-solid fa-arrow-up"></i>
         </button>
 
+        <!-- Premium Instagram Floating Button -->
         <a id="dynamic-floating-instagram" href="#" class="floating-btn instagram-float-btn" target="_blank" aria-label="Visit our Instagram">
             <i class="fa-brands fa-instagram"></i>
         </a>
-
-        <a id="dynamic-whatsapp" href="https://wa.me/917993872121" class="floating-btn whatsapp-btn" target="_blank" aria-label="Contact on WhatsApp">
-            <img id="whatsapp-icon-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        
+        <a id="dynamic-whatsapp" href="https://wa.me/917993872121" class="floating-btn whatsapp-btn pulse-anim" target="_blank" aria-label="Contact on WhatsApp">
+            <img id="whatsapp-icon-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
         </a>
     </div>
 
