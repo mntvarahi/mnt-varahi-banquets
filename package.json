@@ -1,0 +1,16 @@
+{
+  "name": "mnt-varahi-banquets",
+  "version": "1.0.0",
+  "description": "Premium luxury banquet hall single-page portfolio layout for MNT Varahi Banquets.",
+  "main": "server.py",
+  "scripts": {
+    "start": "python3 server.py"
+  },
+  "keywords": [
+    "banquet",
+    "hyderabad",
+    "premium"
+  ],
+  "author": "Front-End Engineering Expert",
+  "license": "ISC"
+}

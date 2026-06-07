@@ -1,0 +1,33 @@
+{
+  "contact": {
+    "instagram_link": "https://www.instagram.com/mnt_varahi_banquets",
+    "whatsapp_number": "+917993872121",
+    "google_maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.64724838612!2d78.396918!3d17.332454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDE5JzU2LjgiTiA3OMKwMjMnNDguOSJF!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+  },
+  "images": {
+    "logo": {
+      "filename": "MNT_Varahi_logo.png",
+      "gdrive_link": "MNT_Varahi_logo.png",
+      "description": "Main business logo for top-left header"
+    },
+    "hero": {
+      "filename": "hero_banner.jpg",
+      "gdrive_link": "https://drive.google.com/thumbnail?id=1nUJAUlM-AoCaFYm-pXxCueQ5vrkFck7A&sz=w900"
+    },
+    "about": {
+      "filename": "MNT_Varahi_logo.png",
+      "gdrive_link": "MNT_Varahi_logo.png"
+    },
+    "gallery": [
+      { "filename": "gallery_1.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1meuANx9eH75oBIQKs33CO-uyTStgkkhY&sz=w900" },
+      { "filename": "gallery_2.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1mURZ_g7De3SOmDJH-xn7UBgLQjJbdS1c&sz=w900" },
+      { "filename": "gallery_3.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1nUJAUlM-AoCaFYm-pXxCueQ5vrkFck7A&sz=w900" },
+      { "filename": "gallery_4.jpg", "gdrive_link": "gallery_4.jpg" },
+      { "filename": "gallery_5.jpg", "gdrive_link": "gallery_5.jpg" },
+      { "filename": "gallery_6.jpg", "gdrive_link": "gallery_6.jpg" }
+    ],
+    "icons": {
+      "whatsapp_logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    }
+  }
+}
