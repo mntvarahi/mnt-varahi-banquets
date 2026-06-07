@@ -10,7 +10,7 @@
       "description": "Main business logo for top-left header"
     },
     "hero": {
-      "filename": "hero_banner.jpg",
+      "filename": "https://drive.google.com/thumbnail?id=1nUJAUlM-AoCaFYm-pXxCueQ5vrkFck7A&sz=w900",
       "gdrive_link": "https://drive.google.com/thumbnail?id=1nUJAUlM-AoCaFYm-pXxCueQ5vrkFck7A&sz=w900"
     },
     "about": {
@@ -18,12 +18,12 @@
       "gdrive_link": "MNT_Varahi_logo.png"
     },
     "gallery": [
-      { "filename": "gallery_1.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1meuANx9eH75oBIQKs33CO-uyTStgkkhY&sz=w900" },
-      { "filename": "gallery_2.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1mURZ_g7De3SOmDJH-xn7UBgLQjJbdS1c&sz=w900" },
-      { "filename": "gallery_3.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1nUJAUlM-AoCaFYm-pXxCueQ5vrkFck7A&sz=w900" },
-      { "filename": "gallery_4.jpg", "gdrive_link": "gallery_4.jpg" },
-      { "filename": "gallery_5.jpg", "gdrive_link": "gallery_5.jpg" },
-      { "filename": "gallery_6.jpg", "gdrive_link": "gallery_6.jpg" }
+      { "filename": "gallery_1.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=184AiDhi5jBKU42i-KBN_6P6lLnkbpZ0h&sz=w900" },
+      { "filename": "gallery_2.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1nhI4rAQc3vSJ0c2P1jZusFGXFYwOxEeT&sz=w900" },
+      { "filename": "gallery_3.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=17RsZF_N7Z4nqWe3H1Lv9mJ6DbfEUtPIN&sz=w900" },
+      { "filename": "gallery_4.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1qBkKhAxZHNdXgmH6cc0fzDslF_pO3VW5&sz=w900" },
+      { "filename": "gallery_5.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=186rIAe8mJPtb0ZHkFs2sAa9VQQNz1U92&sz=w900" },
+      { "filename": "gallery_6.jpg", "gdrive_link": "https://drive.google.com/thumbnail?id=1meuANx9eH75oBIQKs33CO-uyTStgkkhY&sz=w900" }
     ],
     "icons": {
       "whatsapp_logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
