@@ -429,16 +429,21 @@ h1, h2, h3, .section-tagline {
 }
 
 .footer-info p, .footer-hours p {
-    margin-bottom: 15px;
-    font-size: 1rem;
+    margin-bottom: 12px; /* Slightly reduced margin for a tighter list */
+    font-size: 1.05rem;
+    display: flex; /* Align icons and text nicely */
+    align-items: center;
 }
 
+/* Base icon styling for address, phone, and email */
 .footer-info i {
     color: var(--gold);
+    font-size: 1.2rem;
+    width: 25px; /* Ensures text aligns perfectly even if icons have different widths */
     margin-right: 10px;
-    font-size: 1.1rem;
 }
 
+/* Ensure links in the contact info act like links */
 .footer-info a {
     color: #E2D9D5;
     text-decoration: none;
@@ -447,27 +452,42 @@ h1, h2, h3, .section-tagline {
 
 .footer-info a:hover {
     color: var(--gold);
+    text-decoration: underline; /* Add underline on hover for clarity */
+}
+
+/* Clean, modern Instagram icon styling */
+.social-links {
+    margin-top: 20px;
 }
 
 .social-links a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255,255,255,0.08);
+    width: 45px;
+    height: 45px;
+    background-color: transparent; /* Removed dull background */
     color: var(--gold);
     border-radius: 50%;
-    font-size: 1.2rem;
+    font-size: 1.8rem; /* Made icon larger */
     transition: var(--transition-smooth);
-    margin-top: 10px;
     text-decoration: none;
-    border: 1px solid rgba(212,175,55,0.3);
+    border: 2px solid var(--gold); /* Thicker, clear border */
 }
 
 .social-links a:hover {
     background-color: var(--gold);
-    color: var(--primary-maroon);
+    color: var(--primary-maroon-dark);
+    transform: translateY(-3px); /* Lifts icon up on hover */
+    box-shadow: 0 4px 10px rgba(212,175,55,0.4);
+    text-decoration: none; /* Prevents underline on social icons */
+}
+
+/* Reset alignment specifically for social icons so they stay perfectly centered */
+.social-links a i {
+    width: auto;
+    margin-right: 0;
+    font-size: inherit;
 }
 
 .footer-map iframe {
